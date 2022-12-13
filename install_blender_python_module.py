@@ -33,7 +33,7 @@ def python_exec():
         print("sorry, still not implemented for ", os.name, " - ", platform.system)
 
 
-def installModule(name):
+def installModule(packageName):
 
     try:
         subprocess.call([python_exe, "import ", packageName])
