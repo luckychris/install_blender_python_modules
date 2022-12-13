@@ -1,5 +1,6 @@
 # install_blender_python_modules
-Install any python module for Blender python
+
+#Install any python module for Blender python
 
 
 If you are a Blender user you might also wonder why the module you just installed for python didn't work in the Blender python console or in the python script you wrote in Blender.
@@ -10,4 +11,18 @@ So to make it work in Blender too, you have to install the modules you are using
 
 This little script shall simplify this task for you.
 
-Just copy and paste the code in your text editor in Blender, then 
+Just copy and paste the code in your text editor in Blender, then just change this one line here:
+
+    installModule("pandas")
+    
+and replace "pandas" with whatever module you want to install.
+
+Then run the script.
+
+
+
+
+
+Small remark:
+
+I am working on MacOS. So i am pretty sure it works on MacOS. I tried to implement the functionality for Linux and Windows as well. Unfortunately i couldn't test that. If there are errors, please open an issue and i try to fix that. Thank you.
