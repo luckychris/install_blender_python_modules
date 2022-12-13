@@ -1,6 +1,4 @@
-# install_blender_python_modules
-
-#Install any python module for Blender python
+# Install any python module for Blender python
 
 
 If you are a Blender user you might also wonder why the module you just installed for python didn't work in the Blender python console or in the python script you wrote in Blender.
