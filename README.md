@@ -26,6 +26,9 @@ Small remark:
 I am working on MacOS. So i am pretty sure it works on MacOS. I tried to implement the functionality for Linux and Windows as well. Unfortunately i couldn't test that. If there are errors, please open an issue and i try to fix that. Thank you.
 
 
+
+
+
 If you want to support my work or buy me a coffee:
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/paypalme/christophduyster)
