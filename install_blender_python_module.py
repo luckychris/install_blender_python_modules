@@ -28,7 +28,8 @@ def python_exec():
             path = sys.executable
         return os.path.abspath(path)
     elif isLinux():
-        return os.path.join(sys.prefix, 'sys.prefix/bin', 'python')
+        import sys
+        return os.path.join(sys.prefix, 'bin', 'python')
     else:
         print("sorry, still not implemented for ", os.name, " - ", platform.system)
 
