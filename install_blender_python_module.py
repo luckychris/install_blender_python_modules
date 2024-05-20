@@ -29,7 +29,7 @@ def python_exec():
         return os.path.abspath(path)
     elif isLinux():
         import sys
-        return os.path.join(sys.prefix, 'bin', 'python')
+        return os.path.join(sys.prefix, 'bin', 'python3.11')
     else:
         print("sorry, still not implemented for ", os.name, " - ", platform.system)
 
