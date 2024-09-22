@@ -24,7 +24,6 @@ def python_exec():
             path = bpy.app.binary_path_python
         except AttributeError:
             # 2.93 and later
-            import sys
             path = sys.executable
         return os.path.abspath(path)
     elif isLinux():
