@@ -16,6 +16,7 @@ def isLinux():
 def python_exec():
     
     if isWindows():
+        import sys
         return os.path.join(sys.prefix, 'bin', 'python.exe')
     elif isMacOS():
         import sys
