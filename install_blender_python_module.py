@@ -18,7 +18,7 @@ def python_exec():
     if isWindows():
         return os.path.join(sys.prefix, 'bin', 'python.exe')
     elif isMacOS():
-    
+        import sys
         try:
             # 2.92 and older
             path = bpy.app.binary_path_python
