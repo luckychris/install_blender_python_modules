@@ -45,4 +45,4 @@ def installModule(packageName):
        # install required packages
         subprocess.call([python_exe, "-m", "pip", "install", packageName])
         
-installModule("pandas")
+installModule("pygame")
