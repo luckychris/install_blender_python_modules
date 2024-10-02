@@ -35,11 +35,10 @@ def python_exec():
 
 
 def installModule(packageName):
-
+    python_exe = python_exec()
     try:
         subprocess.call([python_exe, "import ", packageName])
     except:
-        python_exe = python_exec()
        # upgrade pip
         subprocess.call([python_exe, "-m", "ensurepip"])
         subprocess.call([python_exe, "-m", "pip", "install", "--upgrade", "pip"])
